@@ -25,7 +25,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top mx-5">
                 <a class="navbar-brand text-white" href="#"><img class="logo-navebar mx-1" src="./assets/img/viajes.svg"
-                        style="width:25px; height: auto;">Viajes Chile </a>
+                        alt="logo viajes chile" style="width:25px; height: auto;">Viajes Chile </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -36,13 +36,13 @@
                             <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Quiénes somos</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#quienes">Quiénes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Destacados</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">Contacto</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -69,17 +69,14 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <!--carrousel-->
-
     </header>
     <main class="contenedor container-fluid">
-
-        <div class="d-none d-md-block d-lg-block d-sm-none">
-            <section class="presentacion">
-                <h3 id="quienes"> ¿QUIÉNES SOMOS?</h3>
+        <div class="presentacion d-none d-md-block d-lg-block d-sm-none">
+            <section id="quienes">
+                <h3>¿QUIÉNES SOMOS?</h3>
                 <div class="row">
                     <div class="col-12 col-md-4">
-                        <div class="card-title " style="width: 11rem;">
+                        <div class="card-title">                            
                             <div class="icon"><i class="fa-solid fa-plane img-fluid"></i></div>
                             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque,
                                 exercitationem eum nihil vero beatae excepturi expedita optio natus, accusamus ut
@@ -87,7 +84,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <div class="card-title" style="width: 11rem;">
+                        <div class="card-title">
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
                                 rem saepe minus, reprehenderit doloribus nihil vel corrupti eveniet vitae debitis
                                 quidem? Voluptatibus accusantium delectus repellat quae nemo deleniti error laborum.
@@ -97,7 +94,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <div class="card-title" style="width: 11rem;">
+                        <div class="card-title">
                             <div class="icon"><i class="fa-solid fa-route img-fluid"></i></div>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                 Consectetur similique, dicta itaque rem adipisci voluptatibus expedita architecto
@@ -110,12 +107,12 @@
         </div>
 
         <div class="destacados">
-            <section>
-                <h3 id="destacados">DESTACADOS</h3>
+            <section id="destacados">
+                <h3>DESTACADOS</h3>
                 <div class="row">
-                    <div class="col-12 col-md-3">
-                        <div class="card" style="width:210px; height: auto;">
-                            <img src="./assets/img/card1.jpg" class="card-img-top" alt="Lugar destacado 1">
+                    <div class="col-12 col-md-3 mb-3">
+                        <div class="card h-100 mx-auto">
+                            <img src="./assets/img/card1.jpg" class="card-img-top img-fluid h-30 mx-auto" alt="Lugar destacado 1">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsum
@@ -124,10 +121,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3">
-                        <div class="card" style="width:210px; height: auto;">
-                            <img src="./assets/img/card2.jpg" class="card-img-top"
-                                alt="Lugar destacado 2">
+                    <div class="col-12 col-md-3 mb-3">
+                        <div class="card h-100 mx-auto">
+                            <img src="./assets/img/card2.jpg" class="card-img-top img-fluid h-30 mx-auto" alt="Lugar destacado 2">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
@@ -138,10 +134,9 @@
                         </div>
 
                     </div>
-                    <div class="col-12 col-md-3 ">
-                        <div class="card" style="width:210px; height: auto;">
-                            <img src="./assets/img/card3.jpg" class="card-img-top"
-                                alt="Lugar destacado 3">
+                    <div class="col-12 col-md-3 mb-3">
+                        <div class="card h-100 mx-auto">
+                            <img src="./assets/img/card3.jpg" class="card-img-top img-fluid h-30 mx-auto" alt="Lugar destacado 3">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, ad
@@ -149,12 +144,10 @@
                                     architecto quos. Qui molestiae soluta magnam sit alias.</p>
                             </div>
                         </div>
-
                     </div>
-                    <div class="col-12 col-md-3 ">
-                        <div class="card" style="width:210px; height: auto;">
-                            <img src="./assets/img/card4.jpg" class="card-img-top"
-                                alt="Lugar destacado 4">
+                    <div class="col-12 col-md-3 mb-3">
+                        <div class="card h-100 mx-auto">
+                            <img src="./assets/img/card4.jpg" class="card-img-top img-fluid h-30 mx-auto" alt="Lugar destacado 4">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
@@ -169,20 +162,20 @@
     </main>
     <footer>
         <div class="formulario">
-            <form class="">
-                <h3 id="contacto">Contacto</h3>
-                <hr>
+            <form id="contacto">
+                <h3 class="text-center">Contacto</h3>
+                <hr class="border border-secundary border-1 opacity-30">                
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                    <input type="email" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Asunto</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                    <input type="email" class="form-control" id="asunto" placeholder="Ingresa asunto">
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="mensaje" rows="3" placeholder="Ingresa tu mensaje"></textarea>
                 </div>
                 <button class="btn btn-primary" type="submit">Enviar</button>
             </form>
@@ -191,7 +184,7 @@
             <div class="justify-content-start mx-5">
                 <p>VIAJES CHILE</p>
             </div>
-            <div class="icon_redes">
+            <div class="icon_redes content-end">
                 <a href="https://github.com/login" class="mx-1"> <i class="fa-brands fa-github"></i></a>
                 <a href="https://www.linkedin.com/feed/" class="mx-1"> <i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://twitter.com/home?lang=es" class="mx-1"> <i class="fa-brands fa-square-twitter"></i></a>
